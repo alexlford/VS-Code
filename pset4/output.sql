@@ -27,7 +27,7 @@ SELECT
 FROM teachers_salaries_pset4
 ORDER BY RAND(7)
 LIMIT 777
-INTO LOCAL OUTFILE '/opt/homebrew/sample.csv'
+INTO LOCAL OUTFILE '/Users/alf/Documents/VS Code/pset4/sample.csv'
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n';
